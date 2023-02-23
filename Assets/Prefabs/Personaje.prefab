@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 3147444196796582076}
   - component: {fileID: 2486680797188764514}
   - component: {fileID: -5689582274988810439}
+  - component: {fileID: -1751615720426689716}
   m_Layer: 0
   m_Name: Personaje
   m_TagString: Untagged
@@ -127,3 +128,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   prefab: {fileID: 5128780211417569584, guid: ec0a5ad7cddaee94485f9b9bab82c2fe, type: 3}
   nombreAccion: DispararBala
+--- !u!114 &-1751615720426689716
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5899656266988890611}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a2f408c99a3b9749894bbb08e970bff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  velocidadMovimiento: 2
+  velocidadRotacion: 30

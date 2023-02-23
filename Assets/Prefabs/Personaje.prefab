@@ -114,6 +114,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   prefab: {fileID: 7304166210963070791, guid: 56e5c6268b7f3fd4ab7c8de41d9bd02c, type: 3}
   nombreAccion: DispararBomba
+  cadenciaDisparo: 0
 --- !u!114 &-5689582274988810439
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -128,6 +129,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   prefab: {fileID: 5128780211417569584, guid: ec0a5ad7cddaee94485f9b9bab82c2fe, type: 3}
   nombreAccion: DispararBala
+  cadenciaDisparo: 0.5
 --- !u!114 &-1751615720426689716
 MonoBehaviour:
   m_ObjectHideFlags: 0

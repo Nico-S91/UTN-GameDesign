@@ -114,7 +114,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 128c98547a8443b44af772089cc38535, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocidadX: 2
+  velocidadX: 4
   velocidadY: 0
   velocidadZ: 0
 --- !u!114 &-2370954911653492168
@@ -145,7 +145,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   prefab: {fileID: 7304166210963070791, guid: 56e5c6268b7f3fd4ab7c8de41d9bd02c, type: 3}
-  cadenciaTiro: 1
+  cadenciaTiro: 8
 --- !u!114 &1145929658368707382
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -10,6 +10,7 @@ public class VelocidadPowerUp : MonoBehaviour
     {
         MovimientoPersonaje movimientoPersonaje = c.gameObject.GetComponent<MovimientoPersonaje>();
         movimientoPersonaje.velocidadMovimiento += bonus;
+        Destroy(gameObject);
     }
 
 }

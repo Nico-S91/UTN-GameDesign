@@ -116,7 +116,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   prefab: {fileID: 7304166210963070791, guid: 56e5c6268b7f3fd4ab7c8de41d9bd02c, type: 3}
   nombreAccion: DispararBomba
-  cadenciaDisparo: 0
+  cadenciaDisparo: 1
 --- !u!114 &-5689582274988810439
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -144,8 +144,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a2f408c99a3b9749894bbb08e970bff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocidadMovimiento: 2
-  velocidadRotacion: 30
+  velocidadMovimiento: 6
+  velocidadRotacion: 60
 --- !u!114 &-7374956562821620493
 MonoBehaviour:
   m_ObjectHideFlags: 0

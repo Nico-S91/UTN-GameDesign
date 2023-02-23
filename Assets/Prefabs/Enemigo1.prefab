@@ -127,3 +127,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   prefab: {fileID: 5128780211417569584, guid: ec0a5ad7cddaee94485f9b9bab82c2fe, type: 3}
+  cadenciaTiro: 1

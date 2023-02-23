@@ -13,6 +13,8 @@ GameObject:
   - component: {fileID: 5128780211417569591}
   - component: {fileID: 5128780211417569590}
   - component: {fileID: 5128780211417569585}
+  - component: {fileID: -6424063834012875790}
+  - component: {fileID: 8885906116258176229}
   m_Layer: 0
   m_Name: BulletPrefab
   m_TagString: Untagged
@@ -93,7 +95,7 @@ SphereCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5128780211417569584}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Radius: 0.5
@@ -113,3 +115,29 @@ MonoBehaviour:
   velocidadX: 2
   velocidadY: 0
   velocidadZ: 0
+--- !u!114 &-6424063834012875790
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5128780211417569584}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c034a0f2ba62c9e4b86858c22da3a877, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  danio: 10
+--- !u!114 &8885906116258176229
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5128780211417569584}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 195815426a098c149b53f68df90c29a4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tiempoDestruccion: 5

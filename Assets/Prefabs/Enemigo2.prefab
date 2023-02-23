@@ -15,6 +15,8 @@ GameObject:
   - component: {fileID: 4723850434424430920}
   - component: {fileID: -2370954911653492168}
   - component: {fileID: -6037345648326961249}
+  - component: {fileID: 1145929658368707382}
+  - component: {fileID: 2590833277361397209}
   m_Layer: 0
   m_Name: Enemigo2
   m_TagString: Untagged
@@ -144,3 +146,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   prefab: {fileID: 7304166210963070791, guid: 56e5c6268b7f3fd4ab7c8de41d9bd02c, type: 3}
   cadenciaTiro: 1
+--- !u!114 &1145929658368707382
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 831169044733390665}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9ade75aade2cda45925a94c7805da28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cantidad: 20
+--- !u!54 &2590833277361397209
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 831169044733390665}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: Infinity
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 126
+  m_CollisionDetection: 0

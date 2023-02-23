@@ -10,7 +10,7 @@ public class Disparador : MonoBehaviour
     
     void Update()
     {
-        if (Input.GetKeyDown(nombreAccion))
+        if (Input.GetButtonDown(nombreAccion))
         {
             Instantiate(prefab, gameObject.transform.position, gameObject.transform.rotation);
         }

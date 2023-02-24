@@ -18,7 +18,6 @@ public class Bomba : MonoBehaviour
         if (Input.GetButtonDown("Explotar"))
         {
             explotar = true;
-            Destroy(gameObject);
         }
     }
 

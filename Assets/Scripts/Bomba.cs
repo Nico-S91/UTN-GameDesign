@@ -8,6 +8,7 @@ public class Bomba : MonoBehaviour
 
     private bool explotar = false;
 
+
     private void Awake()
     {
         Invoke("Explotar", tiempoDetonacion);
@@ -18,7 +19,9 @@ public class Bomba : MonoBehaviour
         if (Input.GetButtonDown("Explotar"))
         {
             CancelInvoke("Explotar");
-            Invoke("Explotar", 0.1f);
+            explotar = true;
+
+            Invoke("Destruirse", 0.1f);
         }
     }
 
@@ -33,5 +36,11 @@ public class Bomba : MonoBehaviour
 
     void Explotar() {
         explotar = true;
+        Invoke("Destruirse", 0.1f);
     }
+
+    void Destruirse() {
+        Destroy(gameObject);
+    }
+
 }

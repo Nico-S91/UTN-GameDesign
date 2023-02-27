@@ -6,9 +6,10 @@ public class Daniador : MonoBehaviour
 {
     public float danio;
 
-    private void OnCollisionEnter(Collision collision)
+    private void OnTriggerEnter(Collider other)
     {
-        Vida vidaEntidad = collision.gameObject.GetComponent<Vida>();
+        Vida vidaEntidad = other.gameObject.GetComponent<Vida>();
         vidaEntidad.cantidad -= danio;
+        Destroy(gameObject);
     }
 }

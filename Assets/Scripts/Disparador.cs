@@ -5,6 +5,7 @@ using UnityEngine;
 public class Disparador : MonoBehaviour
 {
     public GameObject prefab;
+    public GameObject puntoDeDisparo;
     public string nombreAccion;
     public float cadenciaDisparo;
 
@@ -24,7 +25,7 @@ public class Disparador : MonoBehaviour
     }
 
     void Disparar() {
-        Instantiate(prefab, gameObject.transform.position, gameObject.transform.rotation);
+        Instantiate(prefab, puntoDeDisparo.transform.position, gameObject.transform.rotation);
     }
 
 }

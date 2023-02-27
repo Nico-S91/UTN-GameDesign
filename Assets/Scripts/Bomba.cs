@@ -17,7 +17,8 @@ public class Bomba : MonoBehaviour
     {
         if (Input.GetButtonDown("Explotar"))
         {
-            explotar = true;
+            CancelInvoke("Explotar");
+            Invoke("Explotar", 0.1f);
         }
     }
 

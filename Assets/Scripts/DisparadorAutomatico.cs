@@ -6,6 +6,7 @@ public class DisparadorAutomatico : MonoBehaviour
 {
     public GameObject prefab;
     public float cadenciaTiro;
+    public GameObject origenDeDisparo;
 
 
     private void Awake()
@@ -14,7 +15,7 @@ public class DisparadorAutomatico : MonoBehaviour
     }
 
     void Disparar() {
-        Instantiate(prefab, gameObject.transform.position, gameObject.transform.rotation);
+        Instantiate(prefab, origenDeDisparo.transform.position, gameObject.transform.rotation);
     }
 
 }

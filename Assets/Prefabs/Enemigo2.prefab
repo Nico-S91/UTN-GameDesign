@@ -147,6 +147,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   prefab: {fileID: 7304166210963070791, guid: 56e5c6268b7f3fd4ab7c8de41d9bd02c, type: 3}
   cadenciaTiro: 8
+  origenDeDisparo: {fileID: 6315749334406636484}
 --- !u!114 &6037571914484090811
 MonoBehaviour:
   m_ObjectHideFlags: 0
